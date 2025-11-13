@@ -1,0 +1,27 @@
+﻿Построение начато 06.11.2025 14:09:33.
+     1>Проект "E:\24vvv1\Maksimov\lb7\lb7.2\lb7.2\lb7.2.vcxproj" в узле 2 (целевые объекты build).
+     1>InitializeBuildStatus:
+         Создание "Debug\lb7.2.unsuccessfulbuild", так как было задано "AlwaysCreate".
+       ClCompile:
+         Для всех выходных данных обновления не требуется.
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\lb7.2.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt lb7.2.cpp
+         lb7.2.cpp
+     1>e:\24vvv1\maksimov\lb7\lb7.2\lb7.2\lb7.2.cpp(73): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(304): см. объявление "scanf"
+     1>e:\24vvv1\maksimov\lb7\lb7.2\lb7.2\lb7.2.cpp(133): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(304): см. объявление "scanf"
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\24vvv1\Maksimov\lb7\lb7.2\Debug\lb7.2.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\lb7.2.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\24vvv1\Maksimov\lb7\lb7.2\Debug\lb7.2.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\24vvv1\Maksimov\lb7\lb7.2\Debug\lb7.2.lib" /MACHINE:X86 Debug\lb7.2.obj
+         Debug\stdafx.obj
+     1>lb7.2.obj : warning LNK4075: не учитывается "/EDITANDCONTINUE" из-за спецификации "/INCREMENTAL:NO"
+         lb7.2.vcxproj -> E:\24vvv1\Maksimov\lb7\lb7.2\Debug\lb7.2.exe
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"E:\24vvv1\Maksimov\lb7\lb7.2\Debug\lb7.2.exe;#1" /manifest Debug\lb7.2.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Файл "Debug\lb7.2.unsuccessfulbuild" удаляется.
+         Обращение к "Debug\lb7.2.lastbuildstate".
+     1>Построение проекта "E:\24vvv1\Maksimov\lb7\lb7.2\lb7.2\lb7.2.vcxproj" завершено (целевые объекты build).
+
+Построение успешно завершено.
+
+Затраченное время: 00:00:00.97
